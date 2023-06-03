@@ -1,11 +1,11 @@
 <template>
-<div>NFT Card with SASS</div>
+<NftCard />
 </template>
 
 <script setup>
-
+import NftCard from './components/NftCard.vue';
 </script>
 
 <style lang="scss">
-@import '@/assets/scss/style.scss'
+@import '@/assets/scss/style.scss';
 </style>
