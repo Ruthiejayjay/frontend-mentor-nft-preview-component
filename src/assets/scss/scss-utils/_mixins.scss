@@ -1,0 +1,15 @@
+@mixin reset() {
+    all: unset;
+}
+
+@mixin for-phone-only {
+    @media only screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin for-tablet-down {
+    @media only screen and (max-width: 1200px) {
+        @content;
+    }
+}
