@@ -1,9 +1,12 @@
 <template>
     <div class="nft__card-main">
         <div class="nft__card-content">
-            <div class="nft__card-image">
+            <a href="#" class="nft__card-image-container">
                 <img src="@/assets/images/image-equilibrium.jpg" alt="etherum-image" class="nft__card-image">
-            </div>
+                <div class="nft__card-image-overlay overlayeffect">
+                    <img src="@/assets/images/icon-view.svg" alt="view" class="middle-image">
+                </div>
+            </a>
 
             <div class="nft__card-text">
                 <a href="#" class="text-main">Equilibrium #3429</a>

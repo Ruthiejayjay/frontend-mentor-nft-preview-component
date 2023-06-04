@@ -1,5 +1,8 @@
 <template>
-<NftCard />
+    <div class="nft__card-app">
+        <NftCard />
+    </div>
+
 </template>
 
 <script setup>
