@@ -13,3 +13,9 @@
         @content;
     }
 }
+
+@mixin for-desktop-down {
+    @media only screen and (max-width: 1512px) {
+      @content;
+    }
+  }

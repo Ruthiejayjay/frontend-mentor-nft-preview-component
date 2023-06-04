@@ -14,3 +14,16 @@ p {
     margin: 0;
     padding: 0;
 }
+.nft__card-app {
+    @include for-tablet-down {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @include for-desktop-down {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
